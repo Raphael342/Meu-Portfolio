@@ -1,0 +1,64 @@
+    .Foto-de-Perfil {
+        width: 200px;
+        height: auto;
+        margin-left: 55px;
+        margin-top: 50px;
+        border-radius: 100px;
+        border-style: solid;
+    }
+
+    a img {
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    a img:hover {
+        transform: scale(1.1);
+    }
+
+    .LinkedIn {
+        width: 40px;
+        height: auto;
+        background-color: white;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 2px;
+    }
+    
+    h1 {
+        margin-left: 50px;
+    }
+
+    h2 {
+        margin-left: 60px
+    }
+
+    .Projetos {
+        font-size: 35px;
+    }
+
+p {
+    margin-left: 60px;
+}
+
+    html {
+        background-color: #202124;
+    }
+
+    .minha-barra{
+        background-color:black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 20px;
+        align-items: center;
+    }
+    .minha-barra ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+
+    body {
+        color: white;
+    }
