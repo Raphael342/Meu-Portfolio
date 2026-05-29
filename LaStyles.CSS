@@ -1,0 +1,144 @@
+.Central {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .MainTittle {
+        display: grid;
+        place-items: center;
+        width: fit-content;
+        margin-bottom: 30px;
+    }
+    .MainTittle img,
+    .MainTittle h1 {
+        grid-area: 1/1;
+    }
+
+    .MainTittle img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .MainTittle h1 {
+        z-index: 1;
+        color: beige;
+        font-weight: bold;
+        font-size: 70px;
+        -webkit-text-stroke: 2px maroon;
+        margin: 0px;
+        background-color: rgba(255, 165, 0, 0.7);
+        border-radius: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 5px solid maroon;
+        white-space: nowrap;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Outfit', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    html {
+        background-image: url('Lasanha.png');
+        background-size: 100px;
+        height: 100%;
+    }
+
+    form {
+        margin-bottom: 35px;
+    }
+
+    .search-box {
+        margin-top: -100px;
+    }
+
+    .search-box input {
+        width: 500px;
+        height: 30px;
+        border-radius: 10px;
+        flex: 1;
+        outline: auto;
+        font-family: 'Outfit', sans-serif;
+        background: wheat;
+    }
+
+    .shortcut-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        padding: 12px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 2px solid black;
+        border-radius: 15px;
+        font-weight: bold;
+        transition: transform 0.2s, background-color 0.2s;
+    }
+
+    .shortcut-card:hover {
+        transform: scale(1.05);
+        background-color: rgb(255, 165, 0);
+        color: white;
+    }
+
+    .icon-wrapper {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+        border: 1px solid #000;
+    }
+
+    .icon-wrapper img {
+        width: 22px;
+        height: 22px;
+        object-fit: contain;
+    }
+
+    .shortcut-card span {
+        font-size: 13px;
+        text-align: center;
+        max-width: 90px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .linl-grid {
+        margin-top: -80px;
+        display: flex;
+        gap: 10px;
+    }
+
+.rodape {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 55px;
+    border-top: 3px solid maroon;
+}
+
+.rodape p {
+    margin: 0;
+    color: wheat;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
